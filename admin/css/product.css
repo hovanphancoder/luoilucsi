@@ -1,0 +1,121 @@
+textarea {
+    width: 96%;
+    height: 150px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin: 0 auto !important;
+}
+
+.xoa,
+.sua {
+    border: 0px;
+    color: black;
+}
+
+.form-tour label {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.form-tour {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-tour input {
+    width: 100%;
+}
+
+.form-tour div {
+    width: 30%;
+    box-sizing: border-box;
+    margin: 1.6%;
+}
+
+
+/*.form-tour div:last-child {
+    width: 30%;
+}
+*/
+
+.form-tour select {
+    width: 100%;
+    height: 30px;
+}
+
+.mota {
+    height: 90px;
+}
+
+.tour-chitiet {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 2%;
+}
+
+.thoigian {
+    width: 100%;
+}
+
+.nutluu {
+    width: 200px;
+}
+
+.my_editor {
+    width: 100%;
+}
+
+.ck-reset {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+}
+
+.my_e {
+    width: 100%;
+}
+
+.nhapchitiettour {
+    width: 100%;
+}
+
+.ck.ck-editor {
+    width: 100%;
+}
+
+.btn-luu-tour {
+    height: 40px;
+}
+
+.ck.ck-reset,
+.ck.ck-reset_all,
+.ck.ck-reset_all {
+    width: 100% !important;
+    z-index: 1;
+}
+
+.ck.ck-editor__main {
+    margin: 0;
+    width: 100% !important;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable,
+.ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    width: 97%;
+    margin: 0;
+    height: 400px;
+    margin-left: 1.5%;
+}
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+    margin: 0 17px;
+}
+
+.nutluu {
+    width: 100px !important;
+    background-color: rgb(32, 67, 165);
+    margin: 0 auto;
+    margin: 20px auto;
+    color: white;
+    border: 0;
+}

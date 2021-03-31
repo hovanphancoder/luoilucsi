@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- seo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lưới Lực Sĩ &#8211; Bền Bỉ &#8211; Cho Nhà Nông Tỷ Tỷ</title>
+    <link rel="SHORTCUT ICON" href="img/icon.jpg" type="image/x-icon" />
+
+
+    <!-- link source -->
+
+
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- <link rel="stylesheet" href="css/reponsive.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+
+
+</head>
+
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="full bg-1">
+            <div class="container header-contact">
+                <a href="tel:0332519218">0332519218</a>
+                <a href="mailto:hovanphancoder@gmail.com" class="hd-mail">hovanphancoder@gmail.com</a>
+                <button class="search" id="mySearch" onclick="showSearch()">
+                    <i class='fas fa-search'></i>
+                </button>
+
+            </div>
+        </div>
+        <div id="hidesearch">
+            <form action="">
+                <input type="search" placeholder="Tìm kiếm..." name="" id="">
+                <button class="btn-search"><i class='fas fa-search'></i></button>
+            </form>
+            <button id="close-search" onclick="closesearch()" class="hide-box-search">x</button>
+        </div>
+        <div class="full bg-2">
+            <div class="container menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logolucsi.jpg" width="100%" alt=""></a>
+                </div>
+                <div class="navbar-hien">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">giới thiệu
+                            <ul class="sub-menu">
+                                <li><a href="">congty</a></li>
+                        <li><a href="">hj</a></li>
+                    </ul>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="product.html">sản phẩm<i class="fas fa-angle-down"></i>
+                                <ul class="sub-menu">
+                                    <li><a href="product.html">luoi</a></li>
+                    <li><a href="product.html">day</a></li>
+                    <li><a href="product.html">bat</a></li>
+                    <li><a href="product.html">chi</a></li>
+                    </ul>
+
+                    </a>
+                    </li>
+                    <li><a href="contact.html">liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-an">
+                    <button class="search" id="myMenu" onclick="showmenu()">
+                        <i class="fas fas fa-bars "></i>
+                    </button>
+                    <button class="search" id="mySearch" onclick="showSearch()">
+                        <i class='fas fa-search'></i>
+                    </button>
+
+
+                    <ul class="menuhide" id="myhidemenu">
+                        <li><a href="#" data-text="trang chu">trang chu</a></li>
+                        <li><a href="#" data-text="gioi thieu">gioi thieu</a></li>
+                        <li><a href="#" data-text="sản phẩm">sản phẩm+
+                            <ul class="menusub">
+                                <li>yy</li>
+                                <li>tt</li>
+                                <li>ggh</li>
+                            </ul></a>
+                            <!-- <ul class="sub-menu-hide">
+                                <li><a href="product.html" data-text="tin tức">luoi
+                                    <div class="sub-sub-menu-hide">
+                                        <a href="#">luoi</a>
+                                        <a href="#">luoi</a>
+                                        <a href="#">luoi</a>
+                                    </div>
+                                </li>
+                                <li><a href="product.html" data-text="tin tức">day</a></li>
+                                <li><a href="product.html" data-text="tin tức">bat</a></li>
+                                <li><a href="product.html" data-text="tin tức">chi</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="#" data-text="tin tức">tin tức</a></li>
+                        <li><a href="#" data-text="liên hệ">liên hệ</a></li>
+
+                        <button onclick="closemenu()" class=" zindexmenu">x</button>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <!-- -------------------------------------------------------------- -->
+
+
+
+
+
+
+    <!--main content -->
+
+    <!-- -------------------------------------------------------------- -->
+
+    <!-- <div id="progressbar"></div> -->
+
+    <!-- banner -->
+    <!-- <div class=" banner bg-3 full ">
+        <img id="img-banner" src="./img/1.jpg" width="100%" height="100%" alt=" ">
+        
+        <div class="banner-next "><i onclick="next(); " class='fas fa-angle-right'></i></div>
+        <div class="banner-prev "><i onclick="prev(); " class='fas fa-angle-left'></i></div>
+    </div> -->
+    <div class="home_slider_container">
+
+        <div class="owl-carousel owl-theme home_slider">
+
+            <!-- Slider Item -->
+            <div class="owl-item home_slider_item">
+
+                <div class="home_slider_background" style="background-image:url(img/3.jpg)"></div>
+
+                <div class="home_slider_content ">
+                    <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+                        <h6 class="title-banner">Tên sản phẩm</h6>
+                        <div class="button home_slider_button">
+                            <div class="button_bcg"></div><a href="#">Xem ngay<span></span><span></span><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Item -->
+
+
+
+            <div class="owl-item home_slider_item">
+                <div class="home_slider_background" style="background-image:url(img/2.jpg)"></div>
+
+                <div class="home_slider_content ">
+                    <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+                        <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+                            <h6 class="title-banner">Tên sản phẩm</h6>
+                            <div class="button home_slider_button">
+                                <!-- <div class="button_bcg"></div> -->
+                                <a href="#">Xem ngay<span></span><span></span><span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Item -->
+            <div class="owl-item home_slider_item">
+                <div class="home_slider_background" style="background-image:url(./img/1.jpg)"></div>
+                <div class="home_slider_content ">
+                    <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+                        <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+                            <h6 class="title-banner">Tên sản phẩm</h6>
+                            <div class="button home_slider_button">
+                                <div class="button_bcg"></div><a href="#">Xem ngay<span></span><span></span><span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Slider Nav - Prev -->
+        <div class="home_slider_nav home_slider_prev">
+            <div class="banner-prev "><i class='fas fa-angle-left'></i></div>
+        </div>
+
+        <!-- Home Slider Nav - Next -->
+        <div class="home_slider_nav home_slider_next">
+            <div class="banner-next "><i class='fas fa-angle-right'></i></div>
+
+        </div>
+        <!-- banner -->
+        <!-- <div class=" banner bg-3 full ">
+        <img id="img-banner" src="./img/1.jpg" width="100%" height="100%" alt=" ">
+        
+        <div class="banner-next "><i onclick="next(); " class='fas fa-angle-right'></i></div>
+        <div class="banner-prev "><i onclick="prev(); " class='fas fa-angle-left'></i></div>
+    </div> -->
+        <!-- <img src="images/add.jpg" alt=""> -->
+    </div>
+    <!-- end banner -->
+    <main class="full ">
+
+        <div class="container ">
+            <!-- luoi chong nang -->
+
+            <div class="box-list-product ">
+                <p class="title-sp ">Sản phẩm nổi bật</p>
+                <div class="show-4-sp ">
+                    <a href="detailproduct.html" class="box-sp ">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+
+
+                    <a href="detailproduct.html" class="box-sp ">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp ">
+                        <div class="box-img ">
+                            <img src="img/mau-nha-luoi-trong-rau-2.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <!-- <div class="icon-next-prev next-box">
+                        <i class="	fas fa-angle-double-right"></i>
+                    </div>
+                    <div class="icon-next-prev prev-box">
+                        <i class="	fas fa-angle-double-left"></i>
+                    </div> -->
+                </div>
+
+            </div>
+
+            <div class="box-list-product ">
+                <p class="title-sp ">Sản Phẩm tiêu biểu</p>
+                <div class="show-4-sp ">
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- bat -->
+
+            <div class="box-list-product ">
+                <p class="title-sp ">bat</p>
+                <div class="show-4-sp">
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- day -->
+
+            <div class="box-list-product ">
+                <p class="title-sp ">day</p>
+                <div class="show-4-sp ">
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi che nang luoi che nang
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                    <a href="detailproduct.html" class="box-sp">
+                        <div class="box-img ">
+                            <img src="img/cach-trong-rau-trong-nha-luoi-33.jpg " width="100% " height="100% " alt=" ">
+                            <h2 class="name-sp ">
+                                luoi luc si
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="whychoose container mt-80 ">
+                <h4 class="title-choose ">
+                    Tai sao chon chung toi
+                </h4>
+                <div class="container box-why-choose ">
+                    <div class="box-col3 ">
+                        <i class='far fa-money-bill-alt'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius non error deserunt voluptates ratione veniam voluptatem necessitatibus voluptas numquam, quod est perferendis! Molestiae est doloribus recusandae alias quas repellendus
+                            earum.
+                        </p>
+                    </div>
+                    <div class="box-col3 ">
+                        <i class=' 	far fa-thumbs-up'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius non error deserunt voluptates ratione veniam voluptatem necessitatibus voluptas numquam, quod est perferendis! Molestiae est doloribus recusandae alias quas repellendus
+                            earum.
+                        </p>
+                    </div>
+                    <div class="box-col3 ">
+                        <i class=" fas fa-award "></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius non error deserunt voluptates ratione veniam voluptatem necessitatibus voluptas numquam, quod est perferendis! Molestiae est doloribus recusandae alias quas repellendus
+                            earum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- -------------------------------------------------------------- -->
+
+    <!-- footer -->
+    <!-- -------------------------------------------------------------- -->
+    <footer class="bg-1 ">
+        <div class="container footer pb-50 ">
+            <div class="box-col3 ">
+                <h5 class="introduct ">gioi thieu</h5>
+                <div class="ft-logo">
+                    <img src="./img/logolucsi.jpg" width="100%" alt="">
+                </div>
+                <p class="ft-info">Lưới Lực Sĩ là một trong số những doanh nghiệp chuyên cung cấp sản xuất các sản phẩm lưới với giá cả cạnh tranh : Lưới chắn côn trùng, Lưới mesh, Lưới ...</p>
+            </div>
+            <div class="box-col3 ">
+                <h5 class="introduct ">lien he</h5>
+                <div class="ft-lienhe">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>527/529 Bình Thới, phường 10, Quận 11, Thành phố Hồ Chí Minh</td>
+                        </tr>
+                        <tr>
+                            <td><i class=" 	fas fa-phone-alt"></i>
+                            </td>
+                            <td>
+                                <a href="tel:033251921"> 0332519218</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class=" 	far fa-envelope"></i>
+                            </td>
+                            <td><a href="mailto:hovanphancoder@gmail.com">hovanphancoder@gmail.com</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="box-col3 ">
+                <h5 class="introduct ">danh muc</h5>
+                <ul>
+                    <li><a href="#">
+                        danh muc 1</a></li>
+                    <li><a href="#">
+                        danh muc 2</a></li>
+                    <li><a href="#">
+                        danh muc 3</a></li>
+                    <li><a href="#">
+                        danh muc 4</a></li>
+                    <li><a href="#">
+                        danh muc 5</a></li>
+                    <li><a href="#">
+                        danh muc 6</a></li>
+                    <li><a href="#">
+                        danh muc 7</a></li>
+                    <li><a href="#">
+                        danh muc 8</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -------------------------------------------------------------- -->
+
+    <!-- link js & library -->
+    <div class="uptotop " id="myBtn">
+        <i class='	fas fa-angle-double-up'></i>
+    </div>
+    <div class="call ">
+        <a href="tel:0332519218 "> <i class='fas  fas fa-phone-alt'></i></a>
+    </div>
+    <script src="./js/main.js "></script>
+    <!-- <script src="./js/banner.js "></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="css/bootstrap4/popper.js"></script>
+    <script src="css/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- -------------------------------------------------------------- -->
+
+
+
+</body>

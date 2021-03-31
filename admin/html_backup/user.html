@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/book.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tour.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="./bootstrap4/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/logo.png">WORLD TRAVEL</a>
+        </div>
+        <div class="login">
+            <a href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-sign-in">
+                <span>
+                Login</span></i></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="myMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tour.html">Quản lý Tour</a></li>
+            <li><a href="#">Vùng miền</a></li>
+            <li><a href="book.html">booking</a></li>
+            <li><a href="#">Thông tin người dùng</a></li>
+            <li><a href="#">comment</a></li>
+            <li><a href="company.html">Thông tin công ty</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>
+            Thông tin User
+        </h1>
+        <form action="" class="form-tour">
+            <div class="user">
+                <label for="">ảnh</label>
+                <input type="file">
+                <label for="">Họ và tên:</label>
+                <input type="text" placeholder="Nhập tên">
+                <label for="">password:</label>
+                <input type="password" placeholder="Nhập password">
+
+            </div>
+            <div class="user">
+                <label for="">Xác nhân lại mật khẩu:</label>
+                <input type="text" placeholder="nhập lại mật khẩu">
+                <label for="">Số điện thoại:</label>
+                <input type="number" placeholder="" required>
+                <label for="">Vai trò:</label>
+                <select name="" id="">
+                    <option value="">----nhap lua chon---</option>
+                    <option value="">user</option>
+                    <option value="">adimin</option>
+                 </select>
+            </div>
+            <div class="user">
+                <label for="">email:</label>
+                <input type="text" placeholder="Nhập email">
+                <label for="">Trạng thái:</label>
+                <select name="" id="">
+                    <option value="">----nhap lua chon---</option>
+                    <option value="">Chưa kích hoạt</option>
+                    <option value="">Đã kích hoạt</option>
+                 </select>
+            </div>
+        </form>
+        <h3 class="sub-title">danh sách user</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Tên</th>
+                    <th>email</th>
+                    <th>Số điện thoại</th>
+                    <th>password</th>
+                    <th>ảnh</th>
+                    <th>Vai trò</th>
+                    <th>
+                        delete
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+
+                    <td>
+                        <button class="sua">sua</button>
+                        <button class="xoa">xoa</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>

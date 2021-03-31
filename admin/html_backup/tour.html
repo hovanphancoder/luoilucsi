@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/book.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tour.css">
+    <link rel="stylesheet" href="./bootstrap4/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/logo.png">WORLD TRAVEL</a>
+        </div>
+        <div class="login">
+            <a href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-sign-in">
+                <span>
+                Login</span></i></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="myMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tour.html">Quản lý Tour</a></li>
+            <li><a href="#">Vùng miền</a></li>
+            <li><a href="book.html">booking</a></li>
+            <li><a href="#">Thông tin người dùng</a></li>
+            <li><a href="#">coment</a></li>
+            <li><a href="company.html">Thông tin công ty</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Quản lý tour</h1>
+        <!-- <h3 class="sub-title">
+            thông tin tour </h3> -->
+        <form action="" class="form-tour">
+            <div>
+                <label for="">ảnh</label>
+                <input type="file">
+                <label for="">tour</label>
+                <input type="text" placeholder="tour">
+                <label for="">vung</label>
+                <select name="" id="">
+                    <option value="">----nhap lua chon---</option>
+                    <option value="">dfgh</option>
+                    <option value="">hgf</option>
+                    <option value="">hgf</option>
+                 </select>
+
+
+
+            </div>
+            <div>
+
+                <label for="">gia thuc te</label>
+                <input type="number" placeholder="" required>
+                <label for="">thoi gian di</label>
+                <input type="date" class="thoigian" placeholder="tour">
+                <label for="">thoi gian ve</label>
+                <input type="date" class="thoigian" placeholder="tour">
+
+            </div>
+            <div>
+                <label for="">gia ban</label>
+                <input type="number" placeholder="" required>
+                <label for="">mo ta </label>
+                <textarea class="mota" id="" name="chitiec" placeholder="nhap chi tiet"></textarea>
+            </div>
+            <label for="">chi tiet</label>
+            <textarea id="my_editor" name="my_editor" placeholder="nhap chi tiet"></textarea>
+            <!-- <input type="submit" name="submit_text" id="">-->
+            <br><br>
+            <!-- <input type="submit" class="nut-ok nutluu" value="Luu">
+                       
+                    -->
+            <button class="nut-ok nutluu">Luu</button>
+
+        </form>
+
+        <h3 class="sub-title">danh sách tour</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>ảnh</th>
+                    <th>Tour</th>
+                    <th>Vung</th>
+                    <th>mota</th>
+                    <th>chitiet</th>
+                    <th>gia goc</th>
+                    <th>gia chua giam</th>
+                    <th>like</th>
+                    <th>view</th>
+                    <th>
+                        delete
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>dfg</td>
+                    <td>
+                        <button class="sua">sua</button>
+                        <button class="xoa">xoa</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+
+        </div>
+    </section>
+
+    <script src="./ckeditor/ckeditor.js"></script>
+    <script>
+        ClassicEditor.create(document.getElementById('my_editor'));
+    </script>
+</body>
+
+</html>

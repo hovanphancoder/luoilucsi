@@ -1,0 +1,51 @@
+.detail-img {
+    width: 50%;
+    display: flex;
+}
+
+.detail-mota {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.detail {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.detail-img-right {
+    width: 80%;
+}
+
+.detail-img-left {
+    width: 20%;
+}
+
+.detail-box-img {
+    border: 1px solid gray;
+    /* height: 80px; */
+    height: 25%;
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+.title-detail {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.chitiet b,
+.detail-mota b {
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+}
+
+.chitiet p {
+    padding: 10px;
+}
+
+.ten-sp-detail {
+    margin-bottom: 20px;
+    color: #1f6fff;
+}

@@ -1,0 +1,179 @@
+.bg-4 {
+    background-color: greenyellow;
+}
+
+.ct-box-left {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.ct-box-input {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.ct-box-right {
+    width: 50%;
+    padding: 0 10px;
+    /* background-color: blue; */
+}
+
+.contact {
+    display: flex;
+    /* background: url(../img/3.jpg); */
+}
+
+.ct-box-left input {
+    width: 100%;
+    height: 30px;
+    padding-right: 20px;
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.ct-box-left .info-contact button {
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(36, 125, 241);
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.ct-box-left label {
+    width: 100%;
+    margin-top: 10px;
+    margin: 0 10px;
+    /* color: green; */
+    color: rgb(36, 125, 241);
+    font-weight: 600;
+}
+
+.ct-box-left textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+
+.info-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-contact {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    /* background-color: chartreuse; */
+    font-size: 36px;
+    color: white;
+}
+
+.ct-title-box-chil {
+    text-align: center;
+    margin: 50px;
+    font-size: 24px;
+    /* color: rgb(36, 125, 241); */
+    color: rgb(36, 125, 241);
+    font-weight: 700;
+}
+
+
+/* 
+.ct-box-left form {
+    background: url(../img/2.jpg);
+} */
+
+.ct-bando {
+    width: 100%;
+    margin: 50px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.ct-box-right table tr td {
+    padding-top: 30px;
+    height: 70px;
+}
+
+
+/* .ct-box-right table {
+    margin-top: 50px;
+} */
+
+.ct-box-right table tr td:nth-child(1) {
+    padding: 20px 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    /* color: green; */
+    color: rgb(36, 125, 241);
+    justify-content: center;
+}
+
+
+/* 
+.ct-box-right table tr td i:nth-child(1):hover {
+    animation: icon-contact2 ease-in-out 0.5s infinite;
+} */
+
+.ct-box-right table tr:hover td:nth-child(1) {
+    animation: icon-contact ease-in-out 0.5s infinite;
+}
+
+
+/* 
+@keyframes icon-contact2 {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+} */
+
+@keyframes icon-contact {
+    0% {
+        transform: scale(0.8);
+        /* transform: rotate(20deg); */
+    }
+    50% {
+        transform: scale(1);
+        /* transform: rotate(-20deg); */
+    }
+    100% {
+        transform: scale(0.8);
+        /* transform: rotate(20deg); */
+    }
+}
+
+.ct-box-right table tr td:nth-child(2) {
+    padding: 20px 0;
+}
+
+.ct-box-right table tr td:nth-child(2) a:hover {
+    color: rgb(36, 125, 241);
+    /* color: green; */
+}
+
+.ct-box-right table tr td:nth-child(2) a {
+    color: black;
+}
+
+
+/* .ct-box-right table tr td:nth-child(1):hover {
+    border: 1px solid black;
+    box-sizing: border-box;
+} */
+
+.ct-mt-80 {
+    margin-top: 80px;
+}
